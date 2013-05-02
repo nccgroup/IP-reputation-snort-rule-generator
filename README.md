@@ -7,7 +7,7 @@ Released as open source by NCC Group Plc - http://www.nccgroup.com/
 
 Developed by Will Alexander, will dot alexander at nccgroup dot com
 
-http://www.github.com/nccgroup/IP-repuatation-snort-rule-generator
+https://github.com/nccgroup/IP-reputation-snort-rule-generator
 
 Released under AGPL see LICENSE for more information
 
