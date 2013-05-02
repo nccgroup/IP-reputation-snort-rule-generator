@@ -1,5 +1,16 @@
 #!/usr/bin/perl
 
+# A tool to generate Snort rules based on public IP/domain reputation data
+# 
+# Released as open source by NCC Group Plc - http://www.nccgroup.com/
+# 
+# Developed by Will Alexander, will dot alexander at nccgroup dot com
+# 
+# https://github.com/nccgroup/IP-reputation-snort-rule-generator
+# 
+# Released under AGPL see LICENSE for more information
+
+
 use LWP::Simple;
 use Getopt::Long;
 
