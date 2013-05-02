@@ -16,7 +16,7 @@ Usage
 
 ./tepig.pl [ [--file=LOCAL_FILE] | [--url=URL] ] [--csv=FIELD_NUM] [--sid=INITIAL_SID] | --help
 
-LOCAL_FILE is a file stored localy that contains a list of malicious domains, IP addresses and/or URLs. If omitted then it assumed that a URL is provided.
+LOCAL_FILE is a file stored locally that contains a list of malicious domains, IP addresses and/or URLs. If omitted then it is assumed that a URL is provided.
 URL is a URL that contains a list of malicious domains, IP addresses or URLs. The default is https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist.
 FIELD_NUM is the field number (indexing from 0) that contains the information of interest. If omitted then the file is treated as a simple list.
 INITIAL_SID is the SID that will be applied to the first rule. Every subsequent rule will increment the SID value. The default is 9000000.
