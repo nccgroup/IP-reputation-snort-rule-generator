@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# A tool to generate Snort rules based on public IP/domain reputation data
+# A tool to generate Snort rules or Cisco IDS signatures based on public IP/domain reputation data
 # 
 # Released as open source by NCC Group Plc - http://www.nccgroup.com/
 # 
