@@ -1,7 +1,7 @@
 IP-reputation-snort-rule-generator
 ==================================
 
-A tool to generate Snort rules based on public IP/domain reputation data
+A tool to generate Snort rules or Cisco IDS signatures based on public IP/domain reputation data
 
 Released as open source by NCC Group Plc - http://www.nccgroup.com/
 
@@ -14,7 +14,7 @@ Released under AGPL see LICENSE for more information
 Usage
 =====
 
-./tepig.pl [ [--file=LOCAL_FILE] | [--url=URL] ] [--csv=FIELD_NUM] [--sid=INITIAL_SID] | --help
+./tepig.pl [ [--file=LOCAL_FILE] | [--url=URL] ] [--csv=FIELD_NUM] [--sid=INITIAL_SID] [--ids=[snort|cisco]] | --help
 
 LOCAL_FILE is a file stored locally that contains a list of malicious domains, IP addresses and/or URLs. If omitted then it is assumed that a URL is provided.
 URL is a URL that contains a list of malicious domains, IP addresses or URLs. The default is https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist.
