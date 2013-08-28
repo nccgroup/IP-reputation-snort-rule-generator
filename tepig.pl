@@ -14,7 +14,7 @@
 use LWP::Simple;
 use Getopt::Long;
 
-my $url = 'https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist';
+my $url = 'https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist';
 my $file = undef;
 my $ref = "";
 my $sid = 9000000;
